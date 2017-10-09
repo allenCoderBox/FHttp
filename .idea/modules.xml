@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CodeHttp.iml" filepath="$PROJECT_DIR$/CodeHttp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chttp_anno/chttp_anno.iml" filepath="$PROJECT_DIR$/chttp_anno/chttp_anno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chttp_compiler/chttp_compiler.iml" filepath="$PROJECT_DIR$/chttp_compiler/chttp_compiler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chttplib/chttplib.iml" filepath="$PROJECT_DIR$/chttplib/chttplib.iml" />
+    </modules>
+  </component>
+</project>
