@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply from: 'maven.gradle'
 
 android {
     compileSdkVersion 26
@@ -28,5 +29,5 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:26.+'
     testCompile 'junit:junit:4.12'
-    compile project(':chttp_anno')
+    compile 'com.allen.code.chttplib.FHttp:fhttp_anno:0.0.1'
 }

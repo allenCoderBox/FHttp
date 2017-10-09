@@ -26,7 +26,5 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:26.+'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    testCompile 'junit:junit:4.12'
-    compile project(':chttplib')
-    annotationProcessor project(':chttp_compiler')
+    annotationProcessor 'com.allen.code.chttplib.FHttp:fhttp_compiler:0.0.1'
 }

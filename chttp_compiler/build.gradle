@@ -1,10 +1,14 @@
 apply plugin: 'java'
+apply from: 'maven.gradle'
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.squareup:javapoet:1.7.0'
     compile 'com.google.auto.service:auto-service:1.0-rc2'
-    compile project(':chttp_anno')
+//    compile project(':chttp_anno')
+    compile 'com.allen.code.chttplib.FHttp:fhttp_anno:0.0.1'
+
+
 }
 
 sourceCompatibility = "1.7"
