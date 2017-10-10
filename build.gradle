@@ -15,13 +15,9 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
-
-        maven {
-            url 'https://github.com/FHttp/Fhttp_anno/raw/master'
-        }
-
-
+        maven {url 'https://github.com/FHttp/Fhttp_anno/raw/master'}
         maven { url 'https://github.com/FHttp/fhttp_compiler/raw/master' }
+        maven { url 'https://github.com/FHttp/fhttp_lib/raw/master' }
     }
 
 
